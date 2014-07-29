@@ -1,0 +1,8 @@
+c:\users\michael\documents\visual studio 2013\Projects\PBMViewer\PBMViewer\bin\Debug\PBMViewer.exe.config
+c:\users\michael\documents\visual studio 2013\Projects\PBMViewer\PBMViewer\bin\Debug\PBMViewer.exe
+c:\users\michael\documents\visual studio 2013\Projects\PBMViewer\PBMViewer\bin\Debug\PBMViewer.pdb
+c:\users\michael\documents\visual studio 2013\Projects\PBMViewer\PBMViewer\obj\Debug\PBMViewer.Properties.Resources.resources
+c:\users\michael\documents\visual studio 2013\Projects\PBMViewer\PBMViewer\obj\Debug\PBMViewer.csproj.GenerateResource.Cache
+c:\users\michael\documents\visual studio 2013\Projects\PBMViewer\PBMViewer\obj\Debug\PBMViewer.exe
+c:\users\michael\documents\visual studio 2013\Projects\PBMViewer\PBMViewer\obj\Debug\PBMViewer.pdb
+c:\users\michael\documents\visual studio 2013\Projects\PBMViewer\PBMViewer\obj\Debug\PBMViewer.Form1.resources
