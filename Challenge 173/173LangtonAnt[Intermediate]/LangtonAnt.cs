@@ -24,7 +24,7 @@ namespace langtonAnt
         private int maxColors = 10;             //Maximum number of colors that can be displayed on the grid
         private char[] colorChars = new char[]  //Char notation for the colors that are stored in the grid
         {
-            'w', 'b', 'r', 'g', 't', 'c', 'm', 'y', 'a', 'n'
+            '0','1','2','3','4','5','6','7','8','9'
         };
         Color[] colors = new Color[]            //Colors for creating the bitmap
         {
@@ -64,7 +64,7 @@ namespace langtonAnt
                 List<char> col = new List<char>(size);
                 for(int j = 0; j < size; j++)
                 {
-                    col.Add('w');
+                    col.Add('0');
                 }
                 grid.Add(col);
             }
@@ -112,7 +112,7 @@ namespace langtonAnt
             if (x < width && y < height)                                //Make sure that moving won't make the ant go out of bounds.
             {
                 char currentColor = grid[y][x];                         //Get color at ant's current location
-                int colorIndex = colorsList.IndexOf(currentColor);      //Get the index of the color
+                int colorIndex = currentColor - '0';
 
                 //Decide whether to turn left or right, then make that turn.
                 if (colorDirections[colorIndex] == 'L')
