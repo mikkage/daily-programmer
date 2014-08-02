@@ -1,0 +1,1 @@
+In order to generate the spreadsheet from the data, Microsoft Office must be installed.
